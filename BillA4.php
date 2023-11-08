@@ -76,9 +76,9 @@ $firmlogo=$row2['LogoAddress'];
             </div>
 <hr>
             <div class="row pt-2 pb-2" style="background-color:rgb(230, 230, 230);">
-                <div class="col"><h5>Inv No.: <?php echo $invno;?></h5></div>
-                <div class="col"><h5>Invoice Date: <?php echo date("d-m-Y", strtotime($invdate));?></h5></div>
-                <div class="col"><h5>Payment Type: <?php echo $invpaymenttype."<br>".$SubPaymentType;?></h5></div>
+                <div class="col"><h6>Inv No.: <?php echo $invno;?></h6></div>
+                <div class="col"><h6>Invoice Date: <?php echo date("d-m-Y", strtotime($invdate));?></h6></div>
+                <div class="col"><h6>Payment Type: <?php echo $invpaymenttype."<br>".$SubPaymentType;?></h6></div>
             </div>
             <div class="row">
                 <p><b>Bill To</b></p>
