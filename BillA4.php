@@ -82,7 +82,7 @@ $firmlogo=$row2['LogoAddress'];
             </div>
             <div class="row">
                 <p><b>Bill To</b></p>
-                <div class="col-7">
+                <div class="col-7 mt--1">
                     <h5><?php echo $CustName; ?></h5>
                     <p><?php echo $Address; ?></p>
                 </div>
