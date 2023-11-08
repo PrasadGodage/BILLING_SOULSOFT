@@ -69,7 +69,7 @@ $firmlogo=$row2['LogoAddress'];
                 <div class="col-9">
                    <center>
                     <h1><?php echo $firmName; ?> </h1>
-                    <p><?php echo $firmAddress; ?><br> Mobile: <?php echo $firmMOB; ?> , State: Maharashtra</p>
+                    <p><?php echo $firmAddress; ?> <br> Mobile: <?php echo $firmMOB; ?> , State: Maharashtra</p>
                     <!-- <p></p> -->
                    </center>
                 </div>
