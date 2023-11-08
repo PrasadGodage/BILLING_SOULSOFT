@@ -91,7 +91,7 @@ $firmlogo=$row2['LogoAddress'];
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>#</th>
+                        <th>Sr.No</th>
                         <th>Item Name</th>
                         <th>Qty</th>
                         <th>Rate</th>
@@ -180,8 +180,12 @@ $firmlogo=$row2['LogoAddress'];
               <div class="row">
                 <div class="col-7">
                     <p><b>TERMS AND CONDITIONS</b></p>
-                    <p>1. Domain & Hosting Charges belong to the client only.<br>
-                        2. All disputes are subject to Sangamner jurisdiction only</p>
+                    <p>
+                        1. Domain & Hosting Charges belong to the client only.<br>
+                       2. AMC charges are applicable after one year of completion. <br>
+                       <!-- 2. AMC charges are applicable after one year of completion. <br> -->
+                    </p>
+                    
                 </div>
                 <div class="col-5">
                     <br>
