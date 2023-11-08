@@ -25,6 +25,7 @@ $CustomerID=$row['CustId'];
 $invdate=$row['BillDate'];
 $invpaymenttype=$row['PaymentType'];
 $SubPaymentType=$row['SubPaymentType'];
+$BillDiscount=$row['ExtraBillDiscount'];
 //----------------------------------------------------------------
 //----------------------Customer Data ----------------------------
 $SelectCustomerData = "SELECT * FROM `customermaster` where `CustId`='$CustomerID'";
@@ -159,18 +160,19 @@ $firmlogo=$row2['LogoAddress'];
 
               <div class="row">
                 <div class="col-7">
-                    <!-- <B>BANK DETAILS</B>
-                    <P>Name: CURVEDENT HEALTH CARE PVT.LTD</P>
+                    <B>BANK DETAILS</B>
+                    <P>Name: Soulsoft Infotech Private Limited</P>
                     
                     <P> <br>
-                        IFSC Code: ICIC0001095<br>
-                        Account No: 109505005440<br>
-                        Bank: ICICI Bank,SANGAMNER</P> -->
+                        IFSC Code: IDFB0042964<br>
+                        Account No: 10087360151<br>
+                        Bank: IDFC Bank,SANGAMNER</P>
                 </div>
                 <div class="col-5 float-right">
                     <!-- <h6>TAXABLE AMOUNT ₹ <?php// echo $TotalTaxable; ?></h6> -->
                     <hr>
-                    <h6>TOTAL AMOUNT ₹ <?php echo $NetTotal; ?></h6>
+                    <h6>Bill Discount ₹ <?php echo $BillDiscount; ?></h6>
+                    <h6>TOTAL Amount ₹ <?php echo $NetTotal; ?></h6>
                     <hr>
                     <!-- <p>Received Amount ₹ 0</p> -->
                   
