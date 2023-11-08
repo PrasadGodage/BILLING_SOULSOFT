@@ -163,7 +163,7 @@ $firmlogo=$row2['LogoAddress'];
                     <B>BANK DETAILS</B>
                     <P>Name: Soulsoft Infotech Private Limited</P>
                     
-                    <P> <br>
+                    <P>
                         IFSC Code: IDFB0042964<br>
                         Account No: 10087360151<br>
                         Bank: IDFC Bank,SANGAMNER</P>
