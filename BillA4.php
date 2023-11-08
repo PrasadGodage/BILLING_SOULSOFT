@@ -166,7 +166,7 @@ $firmlogo=$row2['LogoAddress'];
                     <P>
                         IFSC Code: IDFB0042964<br>
                         Account No: 10087360151<br>
-                        Bank: IDFC Bank,SANGAMNER</P>
+                        Bank: IDFC FIRST Bank,SANGAMNER</P>
                 </div>
                 <div class="col-5 ml-auto">
                 <!-- <div class="col-5 float-right"> -->
