@@ -173,7 +173,7 @@ $firmlogo=$row2['LogoAddress'];
                     <hr>
                     <h6>Bill Discount ₹ <?php echo $BillDiscount; ?></h6>
                     <hr>
-                    <h6>TOTAL Amount ₹ <?php echo $NetTotal; ?></h6>
+                    <h6>TOTAL Amount ₹ <?php echo $NetTotal-$BillDiscount; ?></h6>
                     <hr>
                     <!-- <p>Received Amount ₹ 0</p> -->
                   
