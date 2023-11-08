@@ -172,6 +172,7 @@ $firmlogo=$row2['LogoAddress'];
                     <!-- <h6>TAXABLE AMOUNT ₹ <?php// echo $TotalTaxable; ?></h6> -->
                     <hr>
                     <h6>Bill Discount ₹ <?php echo $BillDiscount; ?></h6>
+                    <hr>
                     <h6>TOTAL Amount ₹ <?php echo $NetTotal; ?></h6>
                     <hr>
                     <!-- <p>Received Amount ₹ 0</p> -->
