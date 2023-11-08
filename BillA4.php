@@ -185,6 +185,9 @@ $firmlogo=$row2['LogoAddress'];
                 </div>
                 <div class="col-5">
                     <br>
+                    <br>
+                    <br>
+                    <br>
                     <b>AUTHORISED SIGNATORY FOR</b>
                     <p><?php echo $firmName; ?></p>
                 </div>
