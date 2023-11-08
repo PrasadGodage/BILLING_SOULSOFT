@@ -168,7 +168,8 @@ $firmlogo=$row2['LogoAddress'];
                         Account No: 10087360151<br>
                         Bank: IDFC Bank,SANGAMNER</P>
                 </div>
-                <div class="col-5 float-right">
+                <div class="col-5 ml-auto">
+                <!-- <div class="col-5 float-right"> -->
                     <!-- <h6>TAXABLE AMOUNT ₹ <?php// echo $TotalTaxable; ?></h6> -->
                     <hr>
                     <h6>Bill Discount ₹ <?php echo $BillDiscount; ?></h6>
