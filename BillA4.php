@@ -63,7 +63,7 @@ $firmlogo=$row2['LogoAddress'];
         <!-- <div class="container"> -->
             <div class="row">
                 <div class="col-3">
-                <img src="<?php echo $firmlogo; ?> " height="200px" width="200px" style="margin-top:-10px;" alt="">
+                <img src="<?php echo $firmlogo; ?> " height="200px" width="200px" style="margin-top: -42px; margin-bottom: -36px;" alt="">
                 </div>
                 <div class="col-9">
                    <center>
