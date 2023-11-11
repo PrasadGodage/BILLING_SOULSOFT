@@ -128,7 +128,7 @@ $firmlogo=$row2['LogoAddress'];
                                 <tr>
                                 <td><?php echo $num; ?></td>
                                 
-                                <td><?php echo getitemnamebyID($con,$row['ItemId'])."<br>".$row['ItemDescription'];; ?></td>
+                                <td><?php echo getitemnamebyID($con,$row['ItemId'])."<br><small>".$row['ItemDescription']."</small>"; ?></td>
                                 <td><?php echo $row['Qty']; ?></td>
                                 <td><?php echo $row['Rate']; ?></td>
                                 <!-- <td><?php //echo $row['TaxableAmt']; ?></td> -->
