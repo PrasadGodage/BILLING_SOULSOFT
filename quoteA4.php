@@ -173,7 +173,7 @@ $firmlogo=$row2['LogoAddress'];
                 <!-- <div class="col-5 float-right"> -->
                     <!-- <h6>TAXABLE AMOUNT ₹ <?php// echo $TotalTaxable; ?></h6> -->
                     <hr>
-                    <h6>TOTAL Amount ₹ <?php echo $NetTotal-$BillDiscount; ?></h6>
+                    <h6>Total Quotation Amount ₹ <?php echo $NetTotal-$BillDiscount; ?></h6>
                     <hr>
                     <!-- <p>Received Amount ₹ 0</p> -->
                   
