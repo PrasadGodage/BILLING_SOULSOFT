@@ -185,8 +185,9 @@ $firmlogo=$row2['LogoAddress'];
                 <div class="col-7">
                     <p><b>TERMS AND CONDITIONS</b></p>
                     <p>
-                        1. Domain & Hosting Charges belong to the client only.<br>
+                        1. Domain & Hosting / Server Charges belong to the client only.<br>
                        2. AMC charges are applicable after one year of completion. <br>
+                       3. Extra 18% GST Applicable. <br>
                        <!-- 2. AMC charges are applicable after one year of completion. <br> -->
                     </p>
                     
