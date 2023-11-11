@@ -76,7 +76,7 @@ $firmlogo=$row2['LogoAddress'];
             </div>
 <hr>
             <div class="row pt-2 pb-2" style="background-color: #0073A8;">
-                <div class="col text-white pl-1"><h6>Quot No.: <?php echo $invno;?></h6></div>
+                <div class="col text-white p-1"><h6>Quot No.: <?php echo $invno;?></h6></div>
                 <div class="col text-white"><h5>Quotation</h5></div>
                 <div class="col text-white"><h6>Quot Date: <?php echo date("d-m-Y", strtotime($invdate));?></h6></div>
                 
