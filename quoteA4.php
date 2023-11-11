@@ -76,13 +76,13 @@ $firmlogo=$row2['LogoAddress'];
             </div>
 <hr>
             <div class="row pt-2 pb-2" style="background-color:rgb(230, 230, 230);">
-                <div class="col"><h6>Quote No.: <?php echo $invno;?></h6></div>
+                <div class="col"><h6>Quot No.: <?php echo $invno;?></h6></div>
                 <div class="col"><h5>Quotation</h5></div>
-                <div class="col"><h6>Quote Date: <?php echo date("d-m-Y", strtotime($invdate));?></h6></div>
+                <div class="col"><h6>Quot Date: <?php echo date("d-m-Y", strtotime($invdate));?></h6></div>
                 
             </div>
             <div class="row">
-                <p><b>Bill To</b></p>
+                <p><b>To</b></p>
                 <div class="col-7 mt--1">
                     <h5><?php echo $CustName; ?></h5>
                     <p><?php echo $Address; ?></p>
@@ -128,13 +128,13 @@ $firmlogo=$row2['LogoAddress'];
                                 <tr>
                                 <td><?php echo $num; ?></td>
                                 
-                                <td><?php echo getitemnamebyID($con,$row['ItemId'])."<br><small>".$row['ItemDescription']."</small>"; ?></td>
-                                <td><?php echo $row['Qty']; ?></td>
-                                <td><?php echo $row['Rate']; ?></td>
+                                <td><b><?php echo getitemnamebyID($con,$row['ItemId'])."</b><br><small>".$row['ItemDescription']."</small>"; ?></td>
+                                <td><b><?php echo $row['Qty']; ?></b></td>
+                                <td><b><?php echo $row['Rate']; ?></b></td>
                                 <!-- <td><?php //echo $row['TaxableAmt']; ?></td> -->
                                 <!-- <td><?php //echo getitemTaxpercentbyID($con,$row['ItemId']); ?></td> -->
                                 <!-- <td><?php //echo $row['TaxAmt1']*2; ?></td> -->
-                                <td><?php echo $row['NetAmt']; ?></td>
+                                <td><b><?php echo $row['NetAmt']; ?></b></td>
                                 </tr>
                             <?php 
                             $num++;
@@ -173,7 +173,7 @@ $firmlogo=$row2['LogoAddress'];
                 <!-- <div class="col-5 float-right"> -->
                     <!-- <h6>TAXABLE AMOUNT ₹ <?php// echo $TotalTaxable; ?></h6> -->
                     <hr>
-                    <h6>Bill Discount ₹ <?php echo $BillDiscount; ?></h6>
+                   
                     <hr>
                     <h6>TOTAL Amount ₹ <?php echo $NetTotal-$BillDiscount; ?></h6>
                     <hr>
