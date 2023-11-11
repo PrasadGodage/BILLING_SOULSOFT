@@ -179,7 +179,7 @@ $firmlogo=$row2['LogoAddress'];
                   
                 </div>
               </div>
-
+<br><br>
               <div class="row">
                 <div class="col-7">
                     <p><b>TERMS AND CONDITIONS</b></p>
