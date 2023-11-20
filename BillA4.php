@@ -47,6 +47,7 @@ $firmEmail=$row2['FirmEmail'];
 $firmgst=$row2['FirmGst'];
 $firmlogo=$row2['LogoAddress'];
 $billheadercolor=$row2['billheadercolor'];
+$billtextcolor=$row2['billtextcolor'];
 
 ?>
 
@@ -76,9 +77,9 @@ $billheadercolor=$row2['billheadercolor'];
             </div>
 <hr>
             <div class="row pt-2 pb-2" style="background-color: <?php echo $billheadercolor;?>;">
-                <div class="col"><h6>Inv No.: <?php echo $invno;?></h6></div>
-                <div class="col"><h6>Invoice Date: <?php echo date("d-m-Y", strtotime($invdate));?></h6></div>
-                <div class="col"><h6>Payment Type: <?php echo $invpaymenttype."<br>".$SubPaymentType;?></h6></div>
+                <div class="col" style="<?php echo $billtextcolor; ?>;padding-left: 30px;"><h6>Inv No.: <?php echo $invno;?></h6></div>
+                <div class="col" style="color:<?php echo $billtextcolor;?>;"><h6>Invoice Date: <?php echo date("d-m-Y", strtotime($invdate));?></h6></div>
+                <div class="col" style="color:<?php echo $billtextcolor;?>;"><h6>Payment Type: <?php echo $invpaymenttype."<br>".$SubPaymentType;?></h6></div>
             </div>
             <div class="row">
                 <p><b>Bill To</b></p>
