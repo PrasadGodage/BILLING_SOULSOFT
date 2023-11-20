@@ -77,7 +77,7 @@ $billheadercolor=$row2['billheadercolor'];
             </div>
 <hr>
             <div class="row pl-1 pt-2 pb-2" style="background-color: <?php echo $billheadercolor;?>;">
-                <div class="col" style="padding-left: 30px;"><h6 style="color:<?php echo $billtextcolor;?>;">Quot No.: <?php echo $invno;?></h6></div>
+                <div class="col" style="color:<?php echo $billtextcolor;?>; padding-left: 30px;"><h6 style="color:<?php echo $billtextcolor;?>;">Quot No.: <?php echo $invno;?></h6></div>
                 <div class="col" style="color:<?php echo $billtextcolor;?>;"><center><h5>Quotation</h5></center></div>
                 <div class="col" style="color:<?php echo $billtextcolor;?>;"><h6>Quot Date: <?php echo date("d-m-Y", strtotime($invdate));?></h6></div>
                 
