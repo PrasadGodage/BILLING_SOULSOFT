@@ -46,6 +46,7 @@ $firmMOB=$row2['FirmNo'];
 $firmEmail=$row2['FirmEmail'];
 $firmgst=$row2['FirmGst'];
 $firmlogo=$row2['LogoAddress'];
+$billheadercolor=$row2['billheadercolor'];
 
 
 ?>
@@ -75,7 +76,7 @@ $firmlogo=$row2['LogoAddress'];
                 </div>
             </div>
 <hr>
-            <div class="row pl-1 pt-2 pb-2" style="background-color: #0073A8;">
+            <div class="row pl-1 pt-2 pb-2" style="background-color: <?php echo $billheadercolor;?>;">
                 <div class="col text-white" style="padding-left: 30px;"><h6>Quot No.: <?php echo $invno;?></h6></div>
                 <div class="col text-white"><center><h5>Quotation</h5></center></div>
                 <div class="col text-white"><h6>Quot Date: <?php echo date("d-m-Y", strtotime($invdate));?></h6></div>
