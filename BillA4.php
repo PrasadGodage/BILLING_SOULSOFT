@@ -46,7 +46,7 @@ $firmMOB=$row2['FirmNo'];
 $firmEmail=$row2['FirmEmail'];
 $firmgst=$row2['FirmGst'];
 $firmlogo=$row2['LogoAddress'];
-
+$billheadercolor=$row2['billheadercolor'];
 
 ?>
 
@@ -75,7 +75,7 @@ $firmlogo=$row2['LogoAddress'];
                 </div>
             </div>
 <hr>
-            <div class="row pt-2 pb-2" style="background-color:rgb(230, 230, 230);">
+            <div class="row pt-2 pb-2" style="background-color: <?php echo $billheadercolor;?>;">
                 <div class="col"><h6>Inv No.: <?php echo $invno;?></h6></div>
                 <div class="col"><h6>Invoice Date: <?php echo date("d-m-Y", strtotime($invdate));?></h6></div>
                 <div class="col"><h6>Payment Type: <?php echo $invpaymenttype."<br>".$SubPaymentType;?></h6></div>
